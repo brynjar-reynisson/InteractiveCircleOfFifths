@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="y91CJn" name="InteractiveCircleOfFifths" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="eRsRyj" name="InteractiveCircleOfFifths">
+    <GROUP id="{73424BB4-8851-BEFE-D344-CE59138FF8BA}" name="Source">
+      <FILE id="FrglfA" name="CircleIcon.png" compile="0" resource="1" file="Source/CircleIcon.png"/>
+      <FILE id="IrvvW2" name="DM_Aeolian.svg" compile="0" resource="1" file="Source/DM_Aeolian.svg"/>
+      <FILE id="y3imPb" name="DM_Dorian.svg" compile="0" resource="1" file="Source/DM_Dorian.svg"/>
+      <FILE id="KepLMC" name="DM_Harmonic_minor.svg" compile="0" resource="1"
+            file="Source/DM_Harmonic_minor.svg"/>
+      <FILE id="B9jAMT" name="DM_Harmonic_minor_7ths.svg" compile="0" resource="1"
+            file="Source/DM_Harmonic_minor_7ths.svg"/>
+      <FILE id="e2DRFv" name="DM_Harmonic_minor_Background.svg" compile="0"
+            resource="1" file="Source/DM_Harmonic_minor_Background.svg"/>
+      <FILE id="alT4BM" name="DM_Harmonic_minor_Triads.svg" compile="0" resource="1"
+            file="Source/DM_Harmonic_minor_Triads.svg"/>
+      <FILE id="vZwKzO" name="DM_Ionian.svg" compile="0" resource="1" file="Source/DM_Ionian.svg"/>
+      <FILE id="LQLBF1" name="DM_Locrian.svg" compile="0" resource="1" file="Source/DM_Locrian.svg"/>
+      <FILE id="oKe3Qr" name="DM_Lydian.svg" compile="0" resource="1" file="Source/DM_Lydian.svg"/>
+      <FILE id="EraVXX" name="DM_Melodic_minor.svg" compile="0" resource="1"
+            file="Source/DM_Melodic_minor.svg"/>
+      <FILE id="CY58gM" name="DM_Melodic_minor_7ths.svg" compile="0" resource="1"
+            file="Source/DM_Melodic_minor_7ths.svg"/>
+      <FILE id="Px2iuT" name="DM_Melodic_minor_Background.svg" compile="0"
+            resource="1" file="Source/DM_Melodic_minor_Background.svg"/>
+      <FILE id="iQ4YY4" name="DM_Melodic_minor_Triads.svg" compile="0" resource="1"
+            file="Source/DM_Melodic_minor_Triads.svg"/>
+      <FILE id="svluxB" name="DM_Mixolydian.svg" compile="0" resource="1"
+            file="Source/DM_Mixolydian.svg"/>
+      <FILE id="qjOJzH" name="DM_Modes_7ths.svg" compile="0" resource="1"
+            file="Source/DM_Modes_7ths.svg"/>
+      <FILE id="LRmEtV" name="DM_Modes_Background.svg" compile="0" resource="1"
+            file="Source/DM_Modes_Background.svg"/>
+      <FILE id="cbEs8S" name="DM_Modes_Triads.svg" compile="0" resource="1"
+            file="Source/DM_Modes_Triads.svg"/>
+      <FILE id="XKHzdQ" name="DM_Notes_circle_C.svg" compile="0" resource="1"
+            file="Source/DM_Notes_circle_C.svg"/>
+      <FILE id="uRbzCR" name="DM_Notes_circle_Do.svg" compile="0" resource="1"
+            file="Source/DM_Notes_circle_Do.svg"/>
+      <FILE id="TzMiH8" name="DM_Phrygian.svg" compile="0" resource="1" file="Source/DM_Phrygian.svg"/>
+      <FILE id="LtNvs2" name="LM_Aeolian.svg" compile="0" resource="1" file="Source/LM_Aeolian.svg"/>
+      <FILE id="t80yoR" name="LM_Dorian.svg" compile="0" resource="1" file="Source/LM_Dorian.svg"/>
+      <FILE id="mA1nEq" name="LM_Harmonic_minor.svg" compile="0" resource="1"
+            file="Source/LM_Harmonic_minor.svg"/>
+      <FILE id="pKxVNy" name="LM_Harmonic_minor_7ths.svg" compile="0" resource="1"
+            file="Source/LM_Harmonic_minor_7ths.svg"/>
+      <FILE id="AUUJvh" name="LM_Harmonic_minor_Background.svg" compile="0"
+            resource="1" file="Source/LM_Harmonic_minor_Background.svg"/>
+      <FILE id="msY49n" name="LM_Harmonic_minor_Triads.svg" compile="0" resource="1"
+            file="Source/LM_Harmonic_minor_Triads.svg"/>
+      <FILE id="KHm7vu" name="LM_Ionian.svg" compile="0" resource="1" file="Source/LM_Ionian.svg"/>
+      <FILE id="stcaM1" name="LM_Locrian.svg" compile="0" resource="1" file="Source/LM_Locrian.svg"/>
+      <FILE id="SR0l8C" name="LM_Lydian.svg" compile="0" resource="1" file="Source/LM_Lydian.svg"/>
+      <FILE id="ziN9Js" name="LM_Melodic_minor.svg" compile="0" resource="1"
+            file="Source/LM_Melodic_minor.svg"/>
+      <FILE id="oeDBi4" name="LM_Melodic_minor_7ths.svg" compile="0" resource="1"
+            file="Source/LM_Melodic_minor_7ths.svg"/>
+      <FILE id="VoovYD" name="LM_Melodic_minor_Background.svg" compile="0"
+            resource="1" file="Source/LM_Melodic_minor_Background.svg"/>
+      <FILE id="K9rc8u" name="LM_Melodic_minor_Triads.svg" compile="0" resource="1"
+            file="Source/LM_Melodic_minor_Triads.svg"/>
+      <FILE id="RJbWey" name="LM_Mixolydian.svg" compile="0" resource="1"
+            file="Source/LM_Mixolydian.svg"/>
+      <FILE id="ec2bV0" name="LM_Modes_7ths.svg" compile="0" resource="1"
+            file="Source/LM_Modes_7ths.svg"/>
+      <FILE id="nNnwsh" name="LM_Modes_Background.svg" compile="0" resource="1"
+            file="Source/LM_Modes_Background.svg"/>
+      <FILE id="AcdKzJ" name="LM_Modes_Triads.svg" compile="0" resource="1"
+            file="Source/LM_Modes_Triads.svg"/>
+      <FILE id="mRI7KC" name="LM_Notes_circle_C.svg" compile="0" resource="1"
+            file="Source/LM_Notes_circle_C.svg"/>
+      <FILE id="BA85Qr" name="LM_Notes_circle_Do.svg" compile="0" resource="1"
+            file="Source/LM_Notes_circle_Do.svg"/>
+      <FILE id="uAQq7w" name="LM_Phrygian.svg" compile="0" resource="1" file="Source/LM_Phrygian.svg"/>
+      <FILE id="hddQgQ" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="sGtRwl" name="Mode_Mixolydian.svg" compile="0" resource="1"
+            file="Source/Mode_Mixolydian.svg"/>
+      <FILE id="bfKRAM" name="Mode_Aeolian.svg" compile="0" resource="1"
+            file="Source/Mode_Aeolian.svg"/>
+      <FILE id="Z1rzDY" name="Mode_Dorian.svg" compile="0" resource="1" file="Source/Mode_Dorian.svg"/>
+      <FILE id="bl03qM" name="Mode_Ionian.svg" compile="0" resource="1" file="Source/Mode_Ionian.svg"/>
+      <FILE id="zjHclo" name="Mode_Locrian.svg" compile="0" resource="1"
+            file="Source/Mode_Locrian.svg"/>
+      <FILE id="Tvi08j" name="Mode_Lydian.svg" compile="0" resource="1" file="Source/Mode_Lydian.svg"/>
+      <FILE id="diMKGC" name="Mode_Phrygian.svg" compile="0" resource="1"
+            file="Source/Mode_Phrygian.svg"/>
+      <FILE id="QRW6P8" name="Notes_circle_Dark_mode.svg" compile="0" resource="1"
+            file="Source/Notes_circle_Dark_mode.svg"/>
+      <FILE id="zukDPF" name="Modes_general_background.svg" compile="0" resource="1"
+            file="Source/Modes_general_background.svg"/>
+      <FILE id="zwVRBr" name="Notes_circle.svg" compile="0" resource="1"
+            file="Source/Notes_circle.svg"/>
+      <FILE id="fgyIVH" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="dkVG84" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="CR5KKy" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Dzeawg" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="InteractiveCircleOfFifths"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="InteractiveCircleOfFifths"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2022 targetFolder="Builds/VisualStudio2022" smallIcon="FrglfA" bigIcon="FrglfA">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="InteractiveCircleOfFifths"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="InteractiveCircleOfFifths"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="InteractiveCircleOfFifths"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="InteractiveCircleOfFifths"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

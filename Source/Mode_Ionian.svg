@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="482.66666"
+   height="482.66666"
+   viewBox="0 0 482.66666 482.66666"
+   sodipodi:docname="Mode_Ionian.eps"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="ink_ext_XXXXXX"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,482.66667)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <path
+         d="M 1.12109,3615.79 H 56.918 v -55.8 H 1.12109 v 55.8"
+         style="fill:#e9e9e9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path12" />
+      <path
+         d="m 3556.5,3615.79 h 55.79 v -55.8 h -55.79 v 55.8"
+         style="fill:#e9e9e9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path14" />
+      <path
+         d="M 1.12109,60.4102 H 56.918 V 4.61328 H 1.12109 V 60.4102"
+         style="fill:#e9e9e9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path16" />
+      <path
+         d="m 3556.5,60.4102 h 55.79 V 4.61328 H 3556.5 V 60.4102"
+         style="fill:#e9e9e9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path18" />
+    </g>
+  </g>
+</svg>
