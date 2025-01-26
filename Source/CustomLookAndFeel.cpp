@@ -1,7 +1,7 @@
 /*
   ==============================================================================
 
-   This file is part of the GrandStaffMIDIVisualizer plugin code.
+   This file is part of the InteractiveCircleOfFifths plugin code.
    Copyright (c) Brynjar Reynisson
 
    The code included in this file is provided under the terms of the ISC license

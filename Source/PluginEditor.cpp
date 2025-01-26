@@ -1,6 +1,28 @@
 /*
   ==============================================================================
 
+   This file is part of the InteractiveCircleOfFifths plugin code.
+   Copyright (c) Brynjar Reynisson
+
+   The code included in this file is provided under the terms of the ISC license
+   http://www.isc.org/downloads/software-support-policy/isc-license. Permission
+   to use, copy, modify, and/or distribute this software for any purpose with or
+   without fee is hereby granted provided that the above copyright notice and
+   this permission notice appear in all copies.
+
+   THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+   REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+   AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+   INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+   LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+   OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+   PERFORMANCE OF THIS SOFTWARE.
+
+  ==============================================================================
+*/
+/*
+  ==============================================================================
+
     This file contains the basic framework code for a JUCE plugin editor.
 
   ==============================================================================
@@ -8,7 +30,6 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
-//#include "juce_gui_basics/drawables/juce_SVGParser.cpp"
 #define M_PI       3.14159265358979323846
 
 //==============================================================================
@@ -125,20 +146,10 @@ static Rectangle<float> adjustedCircleBounds(Rectangle<int> circleBounds)
 {
     int buttonHeight = getButtonHeight(circleBounds);
     int buttonSpace = buttonHeight * 0.1;
-    if (halfWidth)
-    {
-        float radiusX2 = circleBounds.getWidth() - buttonSpace * 16;
-        Rectangle<float> adjusted = Rectangle<float>(radiusX2, radiusX2);
-        adjusted.setCentre(circleBounds.getCentreX(), circleBounds.getCentreX());
-        return adjusted;
-    }
-    else
-    {
-        float radiusX2 = jmin(circleBounds.getWidth(), circleBounds.getHeight()) - buttonSpace * 16;
-        Rectangle<float> adjusted = Rectangle<float>(radiusX2, radiusX2);
-        adjusted.setCentre(circleBounds.getCentreX(), circleBounds.getCentreY() - buttonHeight);
-        return adjusted;
-    }
+    float radiusX2 = circleBounds.getWidth() - buttonSpace * 16;
+    Rectangle<float> adjusted = Rectangle<float>(radiusX2, radiusX2);
+    adjusted.setCentre(circleBounds.getCentreX(), circleBounds.getCentreX());
+    return adjusted;
 }
 
 CircleComponent::CircleComponent(ComboBox* modeMenu)
@@ -191,13 +202,6 @@ void CircleComponent::paint(Graphics& g)
                 svgManager.getModeSevenths(selectedMode)->drawWithin(g, adjustedBounds, RectanglePlacement::centred, 1.0);
             }
         }        
-    }
-
-    if (halfWidth)
-    {
-        Rectangle<int> bottom(circleBounds.getX(), circleBounds.getHeight() - getButtonHeight(circleBounds)/2, circleBounds.getWidth(), getButtonHeight(circleBounds)/2);
-        g.setColour(darkMode ? darkModeBackgroundColour : Colours::white);
-        g.fillRect(bottom);
     }
 }
 
@@ -296,10 +300,6 @@ InteractiveCircleOfFifthsAudioProcessorEditor::InteractiveCircleOfFifthsAudioPro
 
     setSeventhsButtonNextState();
     seventhsButton.setEnabled(false);
-    //seventhsButton.setButtonText(" ");
-    //seventhsButton.setTooltip("Show triads");
-    //seventhsButton.setToggleable(true);
-    //seventhsButton.setToggleState(false, false);
     seventhsButton.addListener(this);
 
     darkModeButton.setButtonText("D");
@@ -309,7 +309,7 @@ InteractiveCircleOfFifthsAudioProcessorEditor::InteractiveCircleOfFifthsAudioPro
     darkModeButton.addListener(this);
 
     halfWidthButton.setButtonText("H");
-    halfWidthButton.setTooltip("Half width");
+    halfWidthButton.setTooltip("Half circle");
     halfWidthButton.setToggleable(true);
     halfWidthButton.setToggleState(false, false);
     halfWidthButton.addListener(this);
@@ -484,7 +484,7 @@ void InteractiveCircleOfFifthsAudioProcessorEditor::updateConstrainer()
     if (halfWidth)
     {
         constrainer.setMinimumWidth(320);
-        constrainer.setMinimumHeight(200);
+        constrainer.setMinimumHeight(175);
         int maxHeight = jmax(constrainer.getMinimumHeight(), (int)(bounds.getWidth() * 0.55));
         int maxWidth = jmax(constrainer.getMinimumWidth(), (int)(bounds.getHeight() * 2.5));
         constrainer.setMaximumHeight(maxHeight);
