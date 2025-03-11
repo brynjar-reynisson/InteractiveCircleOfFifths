@@ -5,29 +5,29 @@ This is a visual aid that displays musical modes, and optionally major chords or
 
 • Click on any note to move it on the top center 
 
-• Choose any of these modes:
-	Ionian (Major)
-	Dorian
-	Phrygian
-	Lydian
-	Mixolydian
-	Eolian (Natural minor)
-	Locrian
-	Harmonic minor
-	Melodic minor
+• Choose any of these modes:  
+	&emsp;&emsp;Ionian (Major)  
+	&emsp;&emsp;Dorian  
+	&emsp;&emsp;Phrygian  
+	&emsp;&emsp;Lydian  
+	&emsp;&emsp;Mixolydian  
+	&emsp;&emsp;Eolian (Natural minor)  
+	&emsp;&emsp;Locrian  
+	&emsp;&emsp;Harmonic minor  
+	&emsp;&emsp;Melodic minor  
+  
+• Display:  
+	&emsp;&emsp;Only notes  
+	&emsp;&emsp;Notes + Major chords  
+	&emsp;&emsp;Notes + 7th chords  
+  
+• Choose between CDE or DoReMi notation.  
+  
+• Ligth and Dark modes.  
+  
+• Full circle or Half circle mode, for saving screen space.  
 
-• Display:
-	Only notes
-	Notes + Major chords
-	Notes + 7th chords
-
-• Choose between CDE or DoReMi notation.
-
-• Ligth and Dark modes.
-
-• Full circle or Half circle mode, for saving screen space.
-
-- You can also use the keyboard arrows:
-	Left / Right 		turns the circle.
-	Up / Down 		changes mode
-	Shift Up / Down		toggles between Only notes / Major chords / 7th chords.
+• You can also use the keyboard arrows:  
+	&emsp;&emsp;Left / Right 		turns the circle.  
+	&emsp;&emsp;Up / Down 		changes mode  
+	&emsp;&emsp;Shift Up / Down		toggles between Only notes / Major chords / 7th chords.  
