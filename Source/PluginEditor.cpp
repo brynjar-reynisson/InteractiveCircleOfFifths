@@ -154,6 +154,7 @@ static Rectangle<float> adjustedCircleBounds(Rectangle<int> circleBounds)
 
 CircleComponent::CircleComponent(ComboBox* modeMenu)
 {
+    setWantsKeyboardFocus(true);
     this->modeMenu = modeMenu;
     noteToCircleIndexMap[0] = 0;
     noteToCircleIndexMap[7] = 1;
@@ -277,7 +278,7 @@ void CircleComponent::newCircleDegreeSelected(float deg)
 InteractiveCircleOfFifthsAudioProcessorEditor::InteractiveCircleOfFifthsAudioProcessorEditor (InteractiveCircleOfFifthsAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p), circleComponent(&modeMenu)
 {
-    setWantsKeyboardFocus(true);
+    setWantsKeyboardFocus(true);    
     lightLookAndFeel.setLightModeLookAndFeel();
     darkLookAndFeel.setDarkModeLookAndFeel();
     LookAndFeel::setDefaultLookAndFeel(&lightLookAndFeel);
@@ -440,10 +441,15 @@ void InteractiveCircleOfFifthsAudioProcessorEditor::buttonClicked(juce::Button* 
     repaint();
 }
 
+static bool firstTime = true;
+
 //==============================================================================
 void InteractiveCircleOfFifthsAudioProcessorEditor::paint (juce::Graphics& g)
 {
-    //grabKeyboardFocus();
+    if (firstTime) {
+        grabKeyboardFocus();
+        firstTime = false;
+    }
     if (darkMode)
     {
         g.fillAll(darkModeBackgroundColour);
